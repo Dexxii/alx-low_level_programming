@@ -12,7 +12,7 @@ int main(void)
 	int n;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 4;
+	n = rand() - RAND_MAX / 3;
 
 	if (n > 0)
 	{

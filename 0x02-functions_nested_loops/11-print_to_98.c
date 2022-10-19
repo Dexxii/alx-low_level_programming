@@ -3,7 +3,7 @@
 
 /**
  * print_t0_98 - prints all natural numbers from n to 98
- *@n: the starting number
+ * @n: the starting number
  */
 void print_to_98(int n)
 {

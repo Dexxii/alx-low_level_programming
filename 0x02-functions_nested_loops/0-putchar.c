@@ -1,8 +1,8 @@
-i#include "main.h"
+#include "main.h"
 
 /**
- * main - prints _putchar
- * Return - Always 0
+ * main - prints putchar
+ * Return: Always 0
  */
 int main(void)
 {

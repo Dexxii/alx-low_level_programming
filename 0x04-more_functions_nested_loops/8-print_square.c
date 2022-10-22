@@ -2,11 +2,11 @@
 
 /**
  * print_square - prints a square
- * @size: size of the same
+ * @size: size of the square
  */
 void print_square(int size)
 {
-	if (size <= o)
+	if (size <= 0)
 	{
 		_putchar('\n');
 	}

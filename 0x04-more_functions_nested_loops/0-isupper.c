@@ -2,8 +2,8 @@
 
 /**
  * _isupper - checks if a character is uppercase
- * @c: Variable texy
- * Return: Always 0
+ * @c: Variable text
+ * Retrun: Always 0
  */
 int _isupper(int c)
 {

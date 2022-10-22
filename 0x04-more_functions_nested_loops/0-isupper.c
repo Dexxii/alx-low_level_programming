@@ -3,7 +3,7 @@
 /**
  * _isupper - checks if a character is uppercase
  * @c: Variable text
- * Retrun: Always 0
+ * Return: Always 0
  */
 int _isupper(int c)
 {

@@ -2,7 +2,7 @@
 
 /**
  * _strcat - concatennates two strings
- * @dest: copy to
+ * @dest: copy
  * @src: copy from
  * Return: pointer to dest
  */
@@ -23,6 +23,5 @@ char *_strcat(char *dest, char *src)
 		i++;
 		j++;
 	}
-	dest[j] = '\0';
-	return (dest);
+	dest[i] = '\0';
 }

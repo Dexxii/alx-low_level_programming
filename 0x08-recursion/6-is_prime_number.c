@@ -20,7 +20,8 @@ int sqrt2(int a, int b)
  * _sqrt_recursion - returns the natural square root of n
  * @n: Number integer
  *
- * Return: On error, -1 is returned, and error is set appropriately
+ * Return: On success 1.
+ * On error, -1 is returned, and error is set appropriately
  */
 int _sqrt_recursion(int n)
 {

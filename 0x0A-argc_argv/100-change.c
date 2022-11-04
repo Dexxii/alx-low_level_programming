@@ -4,11 +4,11 @@
 /**
  * main - the function
  * @argc: length of argv
- * @argv: number of arguments
+ * @argv: number of argument
  * Return: Always 0
  */
 
-int main(int argc, char argv[])
+int main(int argc, char *argv[])
 {
 	int position, total, change, aux;
 	int coins[] = {25, 10, 5, 2, 1};
@@ -21,7 +21,7 @@ int main(int argc, char argv[])
 		return (1);
 	}
 
-	total = atoi(argv(1));
+	total = atoi(argv[1]);
 
 	if (total <= 0)
 	{
@@ -45,4 +45,3 @@ int main(int argc, char argv[])
 printf("%d\n", change);
 return (0);
 }
-
